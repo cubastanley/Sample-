@@ -10,5 +10,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>LambdaBasicExample</module>
+        <module>JavaStreams</module>
     </modules>
 </project>
