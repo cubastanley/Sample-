@@ -34,15 +34,22 @@ public class XmlHandler {
             Thread printThread = null;
             //Data will write to XML file here
             if (useVerboseWrite) {
-                Runnable asyncConsoleLog = () -> {
+                /*Runnable asyncConsoleLog = () -> {
                     System.out.println("The following data is being written to the file: \n");
                     peopleData.values().forEach((person) -> {
                         System.out.println(person.toString());
 
                     });
-                };
+                };*/
 
-                printThread = new Thread(asyncConsoleLog);
+                //printThread = new Thread(asyncConsoleLog);
+                printThread = new Thread(() -> {
+                    System.out.println("The following data is being written to the file: \n");
+                    peopleData.values().forEach((person) -> {
+                        System.out.println(person.toString());
+
+                    });
+                });
                 printThread.start();
                 useVerboseWrite = false;
             }
