@@ -6,6 +6,10 @@
         <artifactId>LambdaAndStreamExamples</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    
     <artifactId>LambdaBasicExample</artifactId>
     <packaging>jar</packaging>
+    
+    <name>Lambda Expressions Example Project</name>
+    <description>A small application to demonstrate the use of Lambda Expressions in Java</description>
 </project>

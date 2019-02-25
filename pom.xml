@@ -7,7 +7,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     
-    <name>Cuba's Sample Project</name>
+    <name>Cuba's Sample Projects</name>
+    <description>A collection of sample applications which will demonstrate various aspects of Java</description>
     
    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

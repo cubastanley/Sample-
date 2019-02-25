@@ -5,6 +5,10 @@
     <artifactId>PayaraDataRebuilder-Modular</artifactId>
     <version>2.0</version>
     <packaging>jar</packaging>
+    
+    <name>Payara Data Repair</name>
+    <description>A console based application that reads broken data from text files, repairs it and stores it into an XML file</description>
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>

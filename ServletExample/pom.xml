@@ -13,6 +13,7 @@
     <packaging>war</packaging>
 
     <name>ServletExample</name>
+    <description>A small application to demonstrate an example Servlet</description>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

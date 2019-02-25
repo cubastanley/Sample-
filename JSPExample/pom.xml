@@ -13,6 +13,7 @@
     <packaging>war</packaging>
 
     <name>JSPExample</name>
+    <description>A small application to demonstrate an example JSP page</description>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

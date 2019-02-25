@@ -13,6 +13,7 @@
     <packaging>war</packaging>
 
     <name>JSFExample</name>
+    <description>A small application to demonstrate an example JSF Page with a backing bean</description>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

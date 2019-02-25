@@ -6,8 +6,13 @@
         <artifactId>Sample-Projects</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    
     <artifactId>LambdaAndStreamExamples</artifactId>
     <packaging>pom</packaging>
+    
+    <name>Lambdas and Streams Example Projects</name>
+    <description>A small collection of Java SE applications demonstrating Lambda expressions and streams</description>
+    
     <modules>
         <module>LambdaBasicExample</module>
         <module>JavaStreams</module>

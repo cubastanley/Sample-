@@ -6,6 +6,11 @@
         <artifactId>LambdaAndStreamExamples</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    
     <artifactId>JavaStreams</artifactId>
     <packaging>jar</packaging>
+    
+    <name>Streams Example Project</name>
+    <description>A small application to demonstrate the use of sequential and parallel streams</description>
+    
 </project>
