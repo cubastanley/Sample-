@@ -6,7 +6,6 @@
 package stanley.cuba.java.samples.javastreams.main;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import stanley.cuba.java.samples.javastreams.model.Shape;
 
