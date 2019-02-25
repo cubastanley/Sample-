@@ -20,6 +20,7 @@
         <module>PayaraDataRebuilder</module>
         <module>LambdaAndStreamExamples</module>
     <module>JSPExample</module>
+    <module>JSFExample</module>
   </modules>
     
 </project>
