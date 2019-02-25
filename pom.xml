@@ -19,6 +19,7 @@
     <modules>
         <module>PayaraDataRebuilder</module>
         <module>LambdaAndStreamExamples</module>
-    </modules>
+    <module>JSPExample</module>
+  </modules>
     
 </project>
