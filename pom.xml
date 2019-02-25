@@ -21,6 +21,7 @@
         <module>LambdaAndStreamExamples</module>
     <module>JSPExample</module>
     <module>JSFExample</module>
+    <module>ServletExample</module>
   </modules>
     
 </project>
