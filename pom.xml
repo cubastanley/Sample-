@@ -10,7 +10,7 @@
     <name>Cuba's Sample Projects</name>
     <description>A collection of sample applications which will demonstrate various aspects of Java</description>
     
-   <properties>
+    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -20,9 +20,9 @@
     <modules>
         <module>PayaraDataRebuilder</module>
         <module>LambdaAndStreamExamples</module>
-    <module>JSPExample</module>
-    <module>JSFExample</module>
-    <module>ServletExample</module>
-  </modules>
+        <module>JSPExample</module>
+        <module>JSFExample</module>
+        <module>ServletExample</module>
+    </modules>
     
 </project>
