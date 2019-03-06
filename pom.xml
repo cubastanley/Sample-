@@ -23,6 +23,6 @@
         <module>JSPExample</module>
         <module>JSFExample</module>
         <module>ServletExample</module>
-    </modules>
+  </modules>
     
 </project>
