@@ -72,5 +72,6 @@
     
     <modules>
         <module>BasicArquillianTest</module>
-    </modules>
+    <module>EJBExample</module>
+  </modules>
 </project>
