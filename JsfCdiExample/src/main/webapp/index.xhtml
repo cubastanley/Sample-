@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>JSF CDI Example</title>
+    </h:head>
+    <h:body>
+        <b:container>
+            <h:form>
+
+                <b:row>
+                    <b:column col-sm="3">
+                        <h:outputText value="Name: " id="nameLabel"/>
+                    </b:column>
+                    <b:column col-sm="6">
+                        <b:inputText value="#{personBean.name}" id="name"/>
+                    </b:column>
+                </b:row>
+
+                <b:row>
+                    <b:column col-sm="3">
+                        <h:outputText value="Company: " id="companyLabel"/>
+                    </b:column>
+                    <b:column col-sm="6">
+                        <b:inputText value="#{personBean.company}" id="company"/>
+                    </b:column>
+                </b:row>
+
+                <b:row>
+                    <b:column col-sm="3">
+                        <h:outputText value="Favourite Programming Languages " id="languageLabel"/>
+                    </b:column>
+                    <b:column col-sm="6">
+                        <h:selectManyCheckbox value="#{personBean.favouriteProgrammingLanguages}">
+                            <f:selectItem itemValue="Java" itemLabel="Java"/>
+                            <f:selectItem itemValue="C#" itemLabel="C#"/>
+                            <f:selectItem itemValue="C++" itemLabel="C++"/>
+                            <f:selectItem itemValue="Python" itemLabel="Python"/>
+                            <f:selectItem itemValue="Ruby" itemLabel="Ruby"/>
+                            <f:selectItem itemValue="Pearl" itemLabel="Pearl"/>
+                        </h:selectManyCheckbox>
+                    </b:column>
+                </b:row>
+
+                <b:row>
+                    <b:column offset="3" col-sm="6">
+                        <b:commandButton value="Submit" action="result"/>
+                    </b:column>
+                </b:row>
+
+            </h:form>
+        </b:container>
+    </h:body>
+</html>
+

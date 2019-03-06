@@ -24,6 +24,7 @@
         <module>JSFExample</module>
         <module>ServletExample</module>
         <module>ArquillianExamples</module>
-    </modules>
+    <module>JsfCdiExample</module>
+  </modules>
     
 </project>
