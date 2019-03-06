@@ -23,6 +23,7 @@
         <module>JSPExample</module>
         <module>JSFExample</module>
         <module>ServletExample</module>
-  </modules>
+        <module>ArquillianExamples</module>
+    </modules>
     
 </project>
