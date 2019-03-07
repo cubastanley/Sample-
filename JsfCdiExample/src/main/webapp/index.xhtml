@@ -16,7 +16,7 @@
                         <h:outputText value="Name: " id="nameLabel"/>
                     </b:column>
                     <b:column col-sm="6">
-                        <b:inputText value="#{personBean.name}" id="name"/>
+                        <b:inputText value="#{person.name}" id="name"/>
                     </b:column>
                 </b:row>
 
@@ -25,7 +25,7 @@
                         <h:outputText value="Company: " id="companyLabel"/>
                     </b:column>
                     <b:column col-sm="6">
-                        <b:inputText value="#{personBean.company}" id="company"/>
+                        <b:inputText value="#{person.company}" id="company"/>
                     </b:column>
                 </b:row>
 
@@ -34,7 +34,7 @@
                         <h:outputText value="Favourite Programming Languages " id="languageLabel"/>
                     </b:column>
                     <b:column col-sm="6">
-                        <h:selectManyCheckbox value="#{personBean.favouriteProgrammingLanguages}">
+                        <h:selectManyCheckbox value="#{person.favouriteProgrammingLanguages}">
                             <f:selectItem itemValue="Java" itemLabel="Java"/>
                             <f:selectItem itemValue="C#" itemLabel="C#"/>
                             <f:selectItem itemValue="C++" itemLabel="C++"/>
