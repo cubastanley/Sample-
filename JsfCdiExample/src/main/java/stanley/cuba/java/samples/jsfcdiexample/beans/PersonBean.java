@@ -13,8 +13,7 @@ import javax.faces.bean.RequestScoped;
  * @author cubsy
  */
 
-@ManagedBean
-@RequestScoped
+@ManagedBean(name = "person")
 public class PersonBean {
     
     private String name;

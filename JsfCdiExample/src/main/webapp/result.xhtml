@@ -10,14 +10,14 @@
     </h:head>
     <h:body>
         <b:container>
-            <h:outputLabel value="Name of person is #{personBean.name}"/>
+            <h:outputLabel value="Name of person is #{person.name}"/>
             <br/>
-            <h:outputLabel value="Person's company is #{personBean.company}"/>
+            <h:outputLabel value="Person's company is #{person.company}"/>
             <br/>
             <h:outputLabel value="Person's favourite programming languages are:"/>
             
             <ul>
-                <ui:repeat value="#{personBean.favouriteProgrammingLanguages}" var="curLanguage">
+                <ui:repeat value="#{person.favouriteProgrammingLanguages}" var="curLanguage">
                     <li> #{curLanguage} </li>
                 </ui:repeat>
             </ul>
