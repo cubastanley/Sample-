@@ -25,6 +25,7 @@
         <module>ServletExample</module>
         <module>ArquillianExamples</module>
     <module>JsfCdiExample</module>
-  </modules>
+        <module>javaee</module>
+    </modules>
     
 </project>
