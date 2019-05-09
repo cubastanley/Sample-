@@ -26,6 +26,7 @@
         <module>ArquillianExamples</module>
     <module>JsfCdiExample</module>
         <module>javaee</module>
-    </modules>
+    <module>TheCubappProject</module>
+  </modules>
     
 </project>
