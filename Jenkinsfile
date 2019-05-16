@@ -1,10 +1,21 @@
 pipeline {
 	agent {docker {image 'maven:3.6.0'}}
 	stages {
-		stage('build') {
+		stage('Build') {
 			steps {
-				sh 'mvn clean install'
-				sh 'mvn clean install -Ppayara-data-repair'
+				echo '~~~~~~~~~~ Starting Build ~~~~~~~~~~~'
+				sh 'mvn clean install -DskipTests'
+			}
+		}
+		stage('Test') {
+			steps {
+				echo '~~~~~~~~~~ Running Tests ~~~~~~~~~~'
+				sh 'mvn test'
+			}
+		}
+		stage('Deploy') {
+			steps {
+				echo '~~~~~~~~~~ Deploying Applications ~~~~~~~~~~'
 			}
 		}
 	}
