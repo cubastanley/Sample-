@@ -22,7 +22,7 @@
         <module>JSPExample</module>
         <module>JSFExample</module>
         <module>ServletExample</module>
-        <module>ArquillianExamples</module>
+        
     <module>JsfCdiExample</module>
         <module>javaee</module>
     <module>TheCubappProject</module>
@@ -33,6 +33,7 @@
             <id>payara-data-builder</id>
             <modules>
                 <module>PayaraDataRebuilder</module>
+                <module>ArquillianExamples</module>
             </modules>
         </profile>
     </profiles>
