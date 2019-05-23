@@ -18,14 +18,24 @@
     </properties>
     
     <modules>
-        <module>PayaraDataRebuilder</module>
         <module>LambdaAndStreamExamples</module>
         <module>JSPExample</module>
         <module>JSFExample</module>
         <module>ServletExample</module>
-        <module>ArquillianExamples</module>
+        
     <module>JsfCdiExample</module>
         <module>javaee</module>
-    </modules>
+    <module>TheCubappProject</module>
+  </modules>
+    
+    <profiles>
+        <profile>
+            <id>payara-data-builder</id>
+            <modules>
+                <module>PayaraDataRebuilder</module>
+                <module>ArquillianExamples</module>
+            </modules>
+        </profile>
+    </profiles>
     
 </project>
