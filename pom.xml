@@ -26,7 +26,8 @@
     <module>JsfCdiExample</module>
         <module>javaee</module>
     <module>TheCubappProject</module>
-  </modules>
+        <module>MockitoExample</module>
+    </modules>
     
     <profiles>
         <profile>
